@@ -3,12 +3,22 @@
 // Create a sprite
 /// Written by ???
 /*******************************************************/
-	
+
 /*******************************************************/
 // setup()
 /*******************************************************/
-function setup() {
-	console.log("setup: ");
+function setup() { 
+	//commands for setup//
+	cnv = new Canvas(600,  800);
+ 
+	rectange = new Sprite(100, 112, 100, 82)
+	rectange .color = 'pink';
+	 circle = new Sprite(91, 82, 122);
+	 circle.color = 'orange';
+
+
+
+	console.log("hi");
 
 }
 	
@@ -16,7 +26,7 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background('blue');
 }
 
 /*******************************************************/
