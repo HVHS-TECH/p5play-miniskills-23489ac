@@ -8,6 +8,17 @@
 // setup()
 /*******************************************************/
 function setup() {
+	cnv = new Canvas(850, 850);
+	world.gravity.y = 10;
+	mole= new Sprite(x, y, w, h, 'd');
+
+?????.color = 'ccc';
+
+?????.rotationSpeed = 2;
+
+?????.vel.x = 2;
+
+platform_1 = new Sprite(x, y, w, h, 'k');
 	console.log("setup: ");
 
 }

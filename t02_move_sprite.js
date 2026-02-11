@@ -8,6 +8,12 @@
 // setup()
 /*******************************************************/
 function setup() {
+	cnv = new Canvas(850, 850);
+	clock = new Sprite(230, 300, 128, 195, '69');
+	clock.color = 'pink'
+	clock.rotationSpeed = 2;
+	clock.vel.x =2;
+
 	console.log("setup: ");
 
 }
@@ -16,6 +22,7 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
+	background('blue');
 	
 }
 

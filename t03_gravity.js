@@ -8,6 +8,13 @@
 // setup()
 /*******************************************************/
 function setup() {
+	cnv = new Canvas(850, 850);
+	world.gravity.y = 10;
+	stone = new Sprite(212, 190, 217, 117, '87');
+
+stone.color = 'skyblue';
+stone.rotationSpeed = 3;
+
 	console.log("setup: ");
 
 }
@@ -16,6 +23,7 @@ function setup() {
 // draw()
 /*******************************************************/
 function draw() {
+	background('green');
 	
 }
 

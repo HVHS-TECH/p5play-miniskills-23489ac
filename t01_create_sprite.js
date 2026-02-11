@@ -9,11 +9,11 @@
 /*******************************************************/
 function setup() { 
 	//commands for setup//
-	cnv = new Canvas(600,  800);
+	cnv = new Canvas(750,  800);
  
-	rectange = new Sprite(100, 112, 100, 82)
+	rectange = new Sprite(200,150, 100, 99)
 	rectange .color = 'pink';
-	 circle = new Sprite(91, 82, 122);
+	 circle = new Sprite(400, 200, 100);
 	 circle.color = 'orange';
 
 
