@@ -10,15 +10,15 @@
 function setup() {
 	cnv = new Canvas(850, 850);
 	world.gravity.y = 10;
-	mole= new Sprite(x, y, w, h, 'd');
+	mole= new Sprite(200, 110, 150, 150, '95');
 
-?????.color = 'ccc';
+mole.color = 'brown';
+mole.rotationSpeed = 2;
+mole.vel.x = 2;
 
-?????.rotationSpeed = 2;
-
-?????.vel.x = 2;
-
-platform_1 = new Sprite(x, y, w, h, 'k');
+platform_1 = new Sprite(79, 280, 290, 10, 'a');
+platform_2 = new Sprite(700, 280, 290, 10, 't');
+platform_3 = new Sprite(479, 380, 290, 10, 'r');
 	console.log("setup: ");
 
 }
@@ -27,6 +27,7 @@ platform_1 = new Sprite(x, y, w, h, 'k');
 // draw()
 /*******************************************************/
 function draw() {
+	background('skyblue');
 	
 }
 
